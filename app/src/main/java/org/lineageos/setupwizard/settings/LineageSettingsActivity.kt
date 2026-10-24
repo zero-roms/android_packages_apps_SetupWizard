@@ -28,12 +28,17 @@ class LineageSettingsActivity : BaseSetupWizardActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val osName = getString(R.string.os_name)
-        setDescriptionText(buildDescription(osName))
+        // ZeroS: the statistics and their privacy policy are LineageOS's
+        // (LineageParts uploads to LineageOS's server), so this page names
+        // LineageOS there in every language, not the OS name.
+        val statsProvider = getString(R.string.stats_provider_name)
+        setDescriptionText(buildDescription(statsProvider))
 
-        val metricsHelpImproveLineage = getString(R.string.services_help_improve_cm, osName)
+        val metricsHelpImproveLineage = getString(R.string.services_help_improve_cm, statsProvider)
         metricsItem.summary =
-            getString(R.string.services_metrics_label, metricsHelpImproveLineage, osName, osName)
+            getString(
+                R.string.services_metrics_label, metricsHelpImproveLineage, statsProvider, statsProvider,
+            )
         metricsItem.setOnCheckedChangeListener { isChecked ->
             SetupWizardApp.settingsBundle.putBoolean(KEY_SEND_METRICS, isChecked)
         }
@@ -72,8 +77,9 @@ class LineageSettingsActivity : BaseSetupWizardActivity() {
 
     private fun updateMetricsOption() {
         val myPageBundle = SetupWizardApp.settingsBundle
+        // ZeroS: off unless the user ticks it (LineageOS starts it ticked)
         val metricsChecked =
-            !myPageBundle.containsKey(KEY_SEND_METRICS) || myPageBundle.getBoolean(KEY_SEND_METRICS)
+            myPageBundle.containsKey(KEY_SEND_METRICS) && myPageBundle.getBoolean(KEY_SEND_METRICS)
         metricsItem.isChecked = metricsChecked
         myPageBundle.putBoolean(KEY_SEND_METRICS, metricsChecked)
     }

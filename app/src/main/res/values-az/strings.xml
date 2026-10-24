@@ -51,7 +51,6 @@
     <string name="update_recovery_warning">Quraşdırma bitən kimi Geri qaytarma rejimi güncəllənəcək. Sağlam qalmasını istəyirsinizsə, bu özəlliyi sıradan çıxardın.</string>
     <string name="update_recovery_setting">ƏS ilə birgə Lineage Geri qaytarma rejimini də güncəllə</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
-    <string name="setup_services">LineageOS özəllikləri</string>
     <string name="services_pp_explanation">Bu xidmətlər cihazınızın imkanlarını artırır. Verilər, <xliff:g id="name" example="LineageOS">%1$s</xliff:g>un məxfilik siyasətinə uyğun olaraq istifadə ediləcək.</string>
     <string name="services_find_privacy_policy">Məxfilik siyasətini başqa bir cihazda oxumaq üçün ziyarət edin:</string>
     <string name="services_help_improve_cm"><xliff:g id="name" example="LineageOS">%s</xliff:g>u təkmilləşdirməyə kömək edin</string>

@@ -56,7 +56,6 @@
     <string name="update_recovery_warning">La recuperació s\'actualitzarà tan bon punt hàgiu acabat la configuració. Si voleu mantenir-lo intacte, desactiveu aquesta funció.</string>
     <string name="update_recovery_setting">Actualitza el recuperador del Lineage juntament amb el sistema operatiu</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
-    <string name="setup_services">Característiques de LineageOS</string>
     <string name="services_pp_explanation">Aquests serveis funcionen per ampliar les capacitats del vostre dispositiu. Les dades s\'utilitzaran d\'acord amb la política de privadesa de &lt;xliff:g id=\"name\" example=\"LineageOS\"&gt;.</string>
     <string name="services_find_privacy_policy">Podeu llegir la política de privadesa en un altre dispositiu visitant:</string>
     <string name="services_help_improve_cm">Ajuda a millorar <xliff:g id="name" example="LineageOS">%s</xliff:g></string>

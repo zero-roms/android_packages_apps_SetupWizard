@@ -51,7 +51,6 @@
     <string name="update_recovery_warning">Η Recovery θα ενημερωθεί μόλις ολοκληρώσετε τη ρύθμιση. Αν θέλετε να κρατήσετε την τρέχουσα recovery, απενεργοποιήστε αυτή την επιλογή.</string>
     <string name="update_recovery_setting">Ενημέρωση Lineage Recovery παράλληλα με το λειτουργικό σύστημα</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
-    <string name="setup_services">Χαρακτηριστικά LineageOS</string>
     <string name="services_pp_explanation">Οι υπηρεσίες αυτές έχουν σκοπό να επεκτείνουν τις δυνατότητες της συσκευής σας. Τα δεδομένα θα χρησιμοποιηθούν σύμφωνα με την πολιτική απορρήτου του <xliff:g id="name" example="LineageOS">%1$s</xliff:g>.</string>
     <string name="services_find_privacy_policy">Μπορείτε να διαβάσετε την πολιτική απορρήτου σε μια άλλη συσκευή επισκέπτοντας:</string>
     <string name="services_help_improve_cm">Βοηθήστε στη βελτίωση του <xliff:g id="name" example="LineageOS">%s</xliff:g></string>

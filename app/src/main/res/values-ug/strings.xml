@@ -51,7 +51,6 @@
     <string name="update_recovery_warning">ئەسلىگە كەلتۈرۈشنى تەڭشەش تاماملانغان ھامان يېڭىلايدۇ. ئەگەر ئۇنى ساقلاپ قالماقچى بولسىڭىز، بۇ ئىقتىدارنى چەكلەڭ.</string>
     <string name="update_recovery_setting">Lineage يېڭىلاشنى مەشغۇلات سىستېمىسى بىلەن بىللە يېڭىلايدۇ</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
-    <string name="setup_services">LineageOS ئىقتىدارلىرى</string>
     <string name="services_pp_explanation">بۇ مۇلازىمەتلەر ئۈسكۈنىڭىزنىڭ ئىقتىدارىنى كېڭەيتىش ئۈچۈن خىزمەت قىلىدۇ. سانلىق مەلۇمات <xliff:g id="name" example="LineageOS">%1$s</xliff:g> نىڭ شەخسىيەت تۈزۈمىگە ئاساسەن ئىشلىتىلىدۇ.</string>
     <string name="services_find_privacy_policy">باشقا ئۈسكۈنىدە تۆۋەندىكى ئۇلانمىنى زىيارەت قىلىپ شەخسىيەت تۈزۈمىنى ئوقۇيالايسىز:</string>
     <string name="services_help_improve_cm"><xliff:g id="name" example="LineageOS">%s</xliff:g> نى ياخشىلاشقا ياردەملىشىڭ</string>

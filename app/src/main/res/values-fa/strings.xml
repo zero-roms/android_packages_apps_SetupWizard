@@ -56,7 +56,6 @@
     <string name="update_recovery_warning">به محض پایان راه‌اندازی، ریکاوری به روز می شود. اگر می خواهید آن را دست نخورده نگه دارید، این ویژگی را غیرفعال کنید.</string>
     <string name="update_recovery_setting">ریکاوری Lineage را در کنار سیستم عامل به روز کنید</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
-    <string name="setup_services">ویژگی‌های لینیِج اواِس</string>
     <string name="services_pp_explanation">این خدمات در جهت افزایش قابلیت‌های دستگاه شما عمل می‌کنند. داده‌ها مطابق سیاست های حریم خصوصی <xliff:g id="name" example="LineageOS">%1$s</xliff:g> مورد استفاده قرار خواهند گرفت.</string>
     <string name="services_find_privacy_policy">می‌توانید با مراجعه به آدرس زیر، سیاست حفظ حریم خصوصی را در دستگاه دیگری مطالعه کنید:</string>
     <string name="services_help_improve_cm">کمک به بهبود <xliff:g id="name" example="LineageOS">%s</xliff:g></string>

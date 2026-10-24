@@ -56,7 +56,6 @@
     <string name="update_recovery_warning">Déanfar aisghabháil a nuashonrú chomh luath agus a chríochnaíonn tú an socrú. Más mian leat é a choinneáil slán, díchumasaigh an ghné seo.</string>
     <string name="update_recovery_setting">Nuashonraigh Aisghabháil Lineage taobh leis an OS</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
-    <string name="setup_services">LineageOS gnéithe</string>
     <string name="services_pp_explanation">Oibríonn na seirbhísí seo duit chun cumais do ghléis a leathnú. Úsáidfear sonraí de réir pholasaí príobháideachais <xliff:g id="name" example="LineageOS">%1$s</xliff:g>.</string>
     <string name="services_find_privacy_policy">Is féidir leat an polasaí príobháideachais a léamh ar ghléas eile trí chuairt a thabhairt ar:</string>
     <string name="services_help_improve_cm">Cabhraigh le feabhas a chur ar <xliff:g id="name" example="LineageOS"> %s</xliff:g></string>

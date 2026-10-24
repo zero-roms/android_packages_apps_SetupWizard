@@ -56,7 +56,6 @@
     <string name="update_recovery_warning">A Recovery frissítésre kerül, amint befejeződött a telepítést. Ha érintetlenül akarja hagyni, tiltsa le ezt a funkciót.</string>
     <string name="update_recovery_setting">A Lineage Recovery frissítése az operációs rendszer mellett</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
-    <string name="setup_services">LineageOS újítások</string>
     <string name="services_pp_explanation">Ezek a szolgáltatások Önért dolgoznak, hogy kibővítsék telefonja képességeit. Az adatok felhasználása a <xliff:g id="name" example="LineageOS">%1$s</xliff:g> adatvédelmi szabályzata alapján történik.</string>
     <string name="services_find_privacy_policy">Az adatvédelmi szabályzatot máshol is elolvashatja az alábbi címen:</string>
     <string name="services_help_improve_cm"><xliff:g id="name" example="LineageOS">%s</xliff:g>, segítsen a fejlesztésében</string>

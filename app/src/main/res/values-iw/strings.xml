@@ -56,7 +56,6 @@
     <string name="update_recovery_warning">ה-Recovery יעודכן מיד לאחר סיום ההתקנה. אם אין ברצונך לעדכן אותו, יש להשבית אפשרות זו.</string>
     <string name="update_recovery_setting">עדכון Recovery של Lineage יחד עם מערכת ההפעלה</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
-    <string name="setup_services">תכונות LineageOS</string>
     <string name="services_pp_explanation">שירותים אלו פועלים עבורך כדי להרחיב את יכולות ההתקן שלך.  הנתונים ישמשו בכפוף לתנאי הפרטיות המופיעים במדיניות הפרטיות של <xliff:g id="name" example="LineageOS">%1$s</xliff:g>.</string>
     <string name="services_find_privacy_policy">אפשר לקרוא את מדיניות הפרטיות במכשיר אחר בכתובת:</string>
     <string name="services_help_improve_cm">עזרה בשיפור <xliff:g id="name" example="LineageOS">%s</xliff:g></string>
