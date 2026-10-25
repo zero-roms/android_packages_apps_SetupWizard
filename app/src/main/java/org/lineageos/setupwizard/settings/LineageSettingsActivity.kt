@@ -29,8 +29,9 @@ class LineageSettingsActivity : BaseSetupWizardActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // ZeroS: setup does not offer the LineageOS statistics switch; statistics stay off
-        // (they go to LineageOS's server and can be turned on later in Settings > Privacy).
+        // ZeroS: setup does not offer the statistics switch; statistics stay off (from 0.5.1
+        // they are ZeroS statistics, sent to ZeroS's server, and can be turned on later in
+        // Settings > Security & privacy > More security & privacy > Trust).
         // That leaves this page nothing to show unless the device can disable its navigation
         // keys, so it is skipped otherwise.
         supportsKeyDisabler = isKeyDisablerSupported(this)
