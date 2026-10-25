@@ -46,10 +46,7 @@
     <string name="location_agps_access_title">كۈچەيتىلگەن ئورۇن ئۇچۇرى</string>
     <string name="location_access_summary"><b>سىز ھوقۇق بەرگەن ئەپنىڭ</b> سىزنىڭ ئورۇن ئۇچۇرىڭىزنى ئىشلىتىشكە يول قويۇش، بۇ بەلكىم سىزنىڭ ھازىرقى ۋە ئۆتمۈشتىكى ئۇچۇرىڭىزنى ئۆز ئىچىگە ئېلىشى مۇمكىن.</string>
     <string name="location_agps_access_summary">ئورۇن ئوچۇق بولغاندا، <b>ئىنتېرنېتتىن سۈنئىي ھەمراھ قوشۇمچە سانلىق مەلۇماتىنى چۈشۈرىدۇ</b>، بۇ GPS نىڭ قوزغىلىش ئۈنۈمىنى زور دەرىجىدە ئۆستۈرىدۇ.</string>
-    <string name="update_recovery_title">Lineage ئەسلىگە كەلتۈرۈشنى يېڭىلا</string>
-    <string name="update_recovery_description">ھەر قېتىم يېڭىلانغاندىن كېيىن تۇنجى قېتىم قوزغالغاندا Lineage ئەسلىگە كەلتۈرۈشنى يېڭىلايدۇ.</string>
     <string name="update_recovery_warning">ئەسلىگە كەلتۈرۈشنى تەڭشەش تاماملانغان ھامان يېڭىلايدۇ. ئەگەر ئۇنى ساقلاپ قالماقچى بولسىڭىز، بۇ ئىقتىدارنى چەكلەڭ.</string>
-    <string name="update_recovery_setting">Lineage يېڭىلاشنى مەشغۇلات سىستېمىسى بىلەن بىللە يېڭىلايدۇ</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="services_pp_explanation">بۇ مۇلازىمەتلەر ئۈسكۈنىڭىزنىڭ ئىقتىدارىنى كېڭەيتىش ئۈچۈن خىزمەت قىلىدۇ. سانلىق مەلۇمات <xliff:g id="name" example="LineageOS">%1$s</xliff:g> نىڭ شەخسىيەت تۈزۈمىگە ئاساسەن ئىشلىتىلىدۇ.</string>
     <string name="services_find_privacy_policy">باشقا ئۈسكۈنىدە تۆۋەندىكى ئۇلانمىنى زىيارەت قىلىپ شەخسىيەت تۈزۈمىنى ئوقۇيالايسىز:</string>

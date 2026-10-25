@@ -9,14 +9,15 @@ package org.lineageos.setupwizard.settings
 import android.content.Context
 import android.os.Bundle
 import android.os.UserHandle
-import android.text.TextUtils
+import android.util.Log
+import com.google.android.setupcompat.util.ResultCodes.RESULT_SKIP
 import lineageos.hardware.LineageHardwareManager
 import lineageos.providers.LineageSettings
 import org.lineageos.setupwizard.DISABLE_NAV_KEYS
-import org.lineageos.setupwizard.KEY_SEND_METRICS
 import org.lineageos.setupwizard.R
 import org.lineageos.setupwizard.SetupWizardApp
 import org.lineageos.setupwizard.base.BaseSetupWizardActivity
+import org.lineageos.setupwizard.util.SetupWizardUtils
 
 class LineageSettingsActivity : BaseSetupWizardActivity() {
 
@@ -28,23 +29,20 @@ class LineageSettingsActivity : BaseSetupWizardActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // ZeroS: the statistics and their privacy policy are LineageOS's
-        // (LineageParts uploads to LineageOS's server), so this page names
-        // LineageOS there in every language, not the OS name.
-        val statsProvider = getString(R.string.stats_provider_name)
-        setDescriptionText(buildDescription(statsProvider))
-
-        val metricsHelpImproveLineage = getString(R.string.services_help_improve_cm, statsProvider)
-        metricsItem.summary =
-            getString(
-                R.string.services_metrics_label, metricsHelpImproveLineage, statsProvider, statsProvider,
-            )
-        metricsItem.setOnCheckedChangeListener { isChecked ->
-            SetupWizardApp.settingsBundle.putBoolean(KEY_SEND_METRICS, isChecked)
-        }
-
+        // ZeroS: setup does not offer the LineageOS statistics switch; statistics stay off
+        // (they go to LineageOS's server and can be turned on later in Settings > Privacy).
+        // That leaves this page nothing to show unless the device can disable its navigation
+        // keys, so it is skipped otherwise.
         supportsKeyDisabler = isKeyDisablerSupported(this)
-        navKeysItem.isVisible = supportsKeyDisabler
+        if (!supportsKeyDisabler) {
+            Log.v(TAG, "Nothing to show, skipping LineageSettingsActivity")
+            SetupWizardUtils.disableComponent(this, LineageSettingsActivity::class.java)
+            finishAction(RESULT_SKIP)
+            return
+        }
+        metricsItem.isVisible = false
+
+        navKeysItem.isVisible = true
         navKeysItem.setOnCheckedChangeListener { isChecked ->
             SetupWizardApp.settingsBundle.putBoolean(DISABLE_NAV_KEYS, isChecked)
         }
@@ -53,7 +51,6 @@ class LineageSettingsActivity : BaseSetupWizardActivity() {
     override fun onResume() {
         super.onResume()
         updateDisableNavkeysOption()
-        updateMetricsOption()
     }
 
     override val layoutResId = R.layout.setup_lineage_settings
@@ -63,26 +60,6 @@ class LineageSettingsActivity : BaseSetupWizardActivity() {
     override val iconResId = R.drawable.logo
 
     override val itemEntriesResId = R.xml.lineage_settings_items
-
-    private fun buildDescription(osName: String): CharSequence =
-        TextUtils.concat(
-            getString(
-                R.string.services_full_description,
-                getString(R.string.services_pp_explanation, osName),
-                getString(R.string.services_find_privacy_policy),
-            ),
-            "\n\n",
-            getText(R.string.services_privacy_policy_uri),
-        )
-
-    private fun updateMetricsOption() {
-        val myPageBundle = SetupWizardApp.settingsBundle
-        // ZeroS: off unless the user ticks it (LineageOS starts it ticked)
-        val metricsChecked =
-            myPageBundle.containsKey(KEY_SEND_METRICS) && myPageBundle.getBoolean(KEY_SEND_METRICS)
-        metricsItem.isChecked = metricsChecked
-        myPageBundle.putBoolean(KEY_SEND_METRICS, metricsChecked)
-    }
 
     private fun updateDisableNavkeysOption() {
         if (supportsKeyDisabler) {
@@ -106,6 +83,8 @@ class LineageSettingsActivity : BaseSetupWizardActivity() {
     }
 
     companion object {
+        private const val TAG = "LineageSettingsActivity"
+
         private fun isKeyDisablerSupported(context: Context): Boolean {
             val hardware = LineageHardwareManager.getInstance(context)
             return hardware.isSupported(LineageHardwareManager.FEATURE_KEY_DISABLE)

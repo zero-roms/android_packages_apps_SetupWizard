@@ -35,10 +35,7 @@
     <string name="location_agps_access_title">Endurbætt staðsetning</string>
     <string name="location_access_summary"><b>Leyfa forrit sem hafa beðið um heimild þína</b> til að nota staðsetningarupplýsingar. Þetta gæti falið í sér aðgang að upplýsingum um núverandi jafnt sem fyrri staðsetningar.</string>
     <string name="location_agps_access_summary">Þegar kveikt er á staðsetningu, <b>skal sækja gögn af netinu fyrir stuðning við gervihnattastaðsetningu</b> sem geta bætt verulega afköst í ræsingu á GPS-tækjum.</string>
-    <string name="update_recovery_title">Uppfæra endurheimtingu LineageOS</string>
-    <string name="update_recovery_description">Uppfærir LineageOS endurheimtingarmynd í fyrstu ræsingu á eftir hverri uppfærslu.</string>
     <string name="update_recovery_warning">Endurheimtudiskmyndin verður uppfærð um leið og þú lýkur uppsetningunni. Ef þú vilt halda henni ósnertri, skaltu gera þetta óvirkt.</string>
-    <string name="update_recovery_setting">Uppfæra endurheimtingu LineageOS samhliða uppfærslum stýrikerfis</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="services_pp_explanation">Þessar þjónustur gera þér kleift að útvíkka eiginleika tækisins þíns. Gögn verða notuð í samræmi við persónuverndarstefnu <xliff:g id="name" example="LineageOS">%1$s</xliff:g>.</string>
     <string name="services_help_improve_cm">Hjálpaðu okkur að bæta <xliff:g id="name" example="LineageOS">%s</xliff:g></string>

@@ -10,4 +10,6 @@
 
     <color name="materialColorPrimary">@*android:color/system_primary_dark</color>
     <color name="materialColorOnPrimary">@*android:color/system_on_primary_dark</color>
+    <!-- ZeroS -->
+    <color name="zeros_logo_ring">#F2F2F0</color>
 </resources>

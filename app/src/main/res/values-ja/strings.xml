@@ -51,10 +51,7 @@
     <string name="location_agps_access_title">位置情報の精度向上</string>
     <string name="location_access_summary">許可を求めたアプリに位置情報の使用を許可します。現在地と過去の位置情報が含まれる場合があります。</string>
     <string name="location_agps_access_summary">位置情報がオンのとき、インターネットから衛星補助データをダウンロードします。GPS の起動時の測位が大幅に速くなります。</string>
-    <string name="update_recovery_title">Lineage Recovery をアップデート</string>
-    <string name="update_recovery_description">毎回のアップデートの最初の起動時に Lineage Recovery をアップデートします</string>
     <string name="update_recovery_warning">設定が完了したらすぐにリカバリーがアップデートされます。そのまま維持したい場合は、この機能を無効にしてください。</string>
-    <string name="update_recovery_setting">OS と一緒に Lineage Recovery をアップデートする</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="services_pp_explanation">これらのサービスはデバイスの機能を拡張するために動作します。データは <xliff:g id="name" example="LineageOS">%1$s</xliff:g> のプライバシーポリシーに従って使用されます。</string>
     <string name="services_find_privacy_policy">他のデバイスでプライバシーポリシーを確認するには、次のページを開いてください：</string>

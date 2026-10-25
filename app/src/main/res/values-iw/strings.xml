@@ -51,10 +51,7 @@
     <string name="location_agps_access_title">מיקום משופר</string>
     <string name="location_access_summary"><b>אפשר ליישומים שביקשו את רשותך</b> להשתמש במידע על מיקומך. הפעולה עשויה לכלול את מיקומך הנוכחי ומיקומים קודמים.</string>
     <string name="location_agps_access_summary">כאשר המיקום פועל, <b> הורדת נתוני סיוע לווייני מהאינטרנט </b>, שיכולים לשפר מאוד את ביצועי ההפעלה של ה- GPS.</string>
-    <string name="update_recovery_title">עדכון ה-Recovery של Lineage</string>
-    <string name="update_recovery_description">עדכן את ה- Recovery של Lineage באתחול הראשון לאחר כל עדכון.</string>
     <string name="update_recovery_warning">ה-Recovery יעודכן מיד לאחר סיום ההתקנה. אם אין ברצונך לעדכן אותו, יש להשבית אפשרות זו.</string>
-    <string name="update_recovery_setting">עדכון Recovery של Lineage יחד עם מערכת ההפעלה</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="services_pp_explanation">שירותים אלו פועלים עבורך כדי להרחיב את יכולות ההתקן שלך.  הנתונים ישמשו בכפוף לתנאי הפרטיות המופיעים במדיניות הפרטיות של <xliff:g id="name" example="LineageOS">%1$s</xliff:g>.</string>
     <string name="services_find_privacy_policy">אפשר לקרוא את מדיניות הפרטיות במכשיר אחר בכתובת:</string>

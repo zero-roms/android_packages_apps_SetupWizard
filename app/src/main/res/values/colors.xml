@@ -6,6 +6,9 @@
 -->
 <resources>
     <color name="lineage_accent">#167C80</color>
+    <!-- ZeroS: logo ring follows light/dark, dot and swipe icon in ZeroS red -->
+    <color name="zeros_logo_ring">#1B1B1B</color>
+    <color name="zeros_red">#E5322D</color>
 
     <color name="button_bar_text_enabled">#ff1e1e1e</color>
     <color name="button_bar_text_disabled">#321e1e1e</color>
@@ -20,7 +23,7 @@
     <color name="materialColorPrimary">@*android:color/system_primary_light</color>
     <color name="materialColorOnPrimary">@*android:color/system_on_primary_light</color>
 
-    <color name="finish_swipe_arrow">#82D5C7</color>
+    <color name="finish_swipe_arrow">@color/zeros_red</color>
 
     <!-- TV -->
     <color name="tv_background">#000000</color>

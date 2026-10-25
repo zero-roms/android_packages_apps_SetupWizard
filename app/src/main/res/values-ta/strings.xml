@@ -31,10 +31,7 @@
     <string name="setup_location">இருப்பிடப் பணிவிடைகள்</string>
     <string name="location_access_summary">உமது இருப்பிடத் தகவலைப் பயன்படுத்த, <b>உமது அனுமதி கேட்ட பயன்பாடுகளை அனுமதிக்கவும்.</b> இதில் உமது தற்போதைய இருப்பிடமும் கடந்த கால இருப்பிடங்களும் அடங்கலாம்.</string>
     <string name="location_agps_access_summary">இருப்பிடம் இயக்கப்பட்டிருக்கும்போது, ​​<b>இணையத்திலிருந்து செயற்கைக்கோள் உதவித் தரவைப் பதிவிறக்கவும்</b>, இது GPS தொடக்க செயற்திறனை பெரிதும் மேம்படுத்தும்.</string>
-    <string name="update_recovery_title">Lineage மீட்டெடுப்பைப் புதுப்பிக்க</string>
-    <string name="update_recovery_description">ஒவ்வொரு புதுப்பித்தலுக்குப் பிறகு முதற்தொடக்கத்தில் Lineage மீட்டெடுப்பைப் புதுப்பிக்கிறது.</string>
     <string name="update_recovery_warning">நீர் அமைப்பை முடித்தவுடனே மீட்டெடுப்பு புதுப்பிக்கப்படும். அப்படியே வைக்க வேண்டுமானால், இச்சிறப்பியலை முடக்குக.</string>
-    <string name="update_recovery_setting">OS உடன் இணைந்து Lineage மீட்டெடுப்பைப் புதுப்பிக்க</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="services_pp_explanation">உமது கருவியின் திறன்களை விரிவாக்க இப்பணிவிடைகள் உமக்காக வேலை செய்கின்றன. <xliff:g id="name" example="LineageOS">%1$s</xliff:g> இன் தனியுரிமைக் கொள்கையின்படி தரவு பயன்படுத்தப்படும்.</string>
     <string name="services_help_improve_cm"><xliff:g id="name" example="LineageOS">%s</xliff:g> ஐ மேம்படுத்த உதவுக</string>

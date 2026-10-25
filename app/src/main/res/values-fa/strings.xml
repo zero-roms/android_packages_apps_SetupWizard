@@ -51,10 +51,7 @@
     <string name="location_agps_access_title">موقعیت مکانی بهبودیافته</string>
     <string name="location_access_summary"><b>به برنامه‌هایی که درخواست مکان می‌کنند اجازه دهید</b> از اطلاعات مکان شما استفاده کنند. ممکن است این استفاده شامل مکان فعلی و قبلی شما باشد.</string>
     <string name="location_agps_access_summary">وقتی مکان روشن است، <b>داده های کمک ماهواره را از اینترنت بارگیری کنید</b> که می تواند عملکرد راه‌اندازی GPS را تا حد زیادی بهبود بخشد.</string>
-    <string name="update_recovery_title">به‌روزرسانی ریکاوری Lineage</string>
-    <string name="update_recovery_description">به روزرسانی ریکاوری Lineage در اولین بوت پس از هر بروزرسانی.</string>
     <string name="update_recovery_warning">به محض پایان راه‌اندازی، ریکاوری به روز می شود. اگر می خواهید آن را دست نخورده نگه دارید، این ویژگی را غیرفعال کنید.</string>
-    <string name="update_recovery_setting">ریکاوری Lineage را در کنار سیستم عامل به روز کنید</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="services_pp_explanation">این خدمات در جهت افزایش قابلیت‌های دستگاه شما عمل می‌کنند. داده‌ها مطابق سیاست های حریم خصوصی <xliff:g id="name" example="LineageOS">%1$s</xliff:g> مورد استفاده قرار خواهند گرفت.</string>
     <string name="services_find_privacy_policy">می‌توانید با مراجعه به آدرس زیر، سیاست حفظ حریم خصوصی را در دستگاه دیگری مطالعه کنید:</string>

@@ -25,7 +25,6 @@
     <string name="intro_restore_title">Recùpera aplicatziones e datos</string>
     <string name="intro_restore_subtitle">Si tenes una còpia de seguresa cun Seedvault dae <xliff:g id="name" example="LineageOS">%s</xliff:g> o cale si siat àteru sistema operativu, dda podes recuperare inoghe.</string>
     <string name="setup_location">Servìtzios de positzione</string>
-    <string name="update_recovery_title">Atualizatzione de recùperu de Lineage</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="services_pp_explanation">Custos servìtzios funtzionant pro chi potzas crèschere is funtziones de su telèfonu. Is datos s\'ant a impreare de acordu cun sa polìtica de riservadesa de <xliff:g id="name" example="LineageOS">%1$s</xliff:g>.</string>
     <string name="services_help_improve_cm">Agiuda a megiorare <xliff:g id="name" example="LineageOS">%s</xliff:g></string>

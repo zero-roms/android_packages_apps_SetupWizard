@@ -48,10 +48,7 @@
     <string name="location_agps_access_title">شوێنی باشترکراو</string>
     <string name="location_access_summary"><b>ڕێپێدان بدە بەو بەرنامانەی داوایان کردووە</b> بۆ بەکارهێنانی شوێنەکەت. ئەمە ڕێگەیان پێ دەدات شوێنی ئێستا و ڕابردووت دیاری بکەن.</string>
     <string name="location_agps_access_summary">کاتێک شوێن چالاکە، <b>داتای هاوکاری مانگی دەستکرد لە ئینتەرنێتەوە دابەزێنە</b>، کە دەبێتە هۆی باشترکردنی خێرایی دەستپێکردنی GPS.</string>
-    <string name="update_recovery_title">نوێکردنەوەی Lineage Recovery</string>
-    <string name="update_recovery_description">پاش هەر نوێکردنەوەیەک، لە یەکەم پێکردنەوەدا Lineage Recovery نوێ دەبێتەوە.</string>
     <string name="update_recovery_warning">دوای تەواوبوونی ڕێکخستنەکان، Recovery نوێ دەکرێتەوە. ئەگەر دەتەوێت وەک خۆی بمێنێتەوە، ئەم تایبەتمەندییە ناچالاک بکە.</string>
-    <string name="update_recovery_setting">نوێکردنەوەی Recovery هاوشانی سیستم</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="services_pp_explanation">ئەم خزمەتگوزارییانە بۆ فراوانکردنی تواناکانی ئامێرەکەت کار دەکەن. داتاکان بەپێی سیاسەتی پاراستنی نهێنیی <xliff:g id="name" example="LineageOS">%1$s</xliff:g> بەکاردەهێنرێن.</string>
     <string name="services_find_privacy_policy">دەتوانیت یاسای پاراستنی نهێنی لەسەر ئامێرێکی تر بخوێنیتەوە بە سەردانیکردنی:</string>

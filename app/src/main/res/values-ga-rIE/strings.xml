@@ -51,10 +51,7 @@
     <string name="location_agps_access_title">Suíomh feabhsaithe</string>
     <string name="location_access_summary"><b>Ceadaigh d’aipeanna a d’iarr do chead</b> do chuid faisnéise suímh a úsáid. Seans go n-áireofaí anseo do shuíomh reatha agus láithreacha san am a chuaigh thart.</string>
     <string name="location_agps_access_summary">Nuair atá an suíomh ar siúl, <b>íoslódáil sonraí cúnaimh satailíte ón idirlíon</b>, rud a d\'fhéadfadh feabhas mór a chur ar fheidhmíocht tosaithe GPS.</string>
-    <string name="update_recovery_title">Nuashonraigh Aisghabháil Lineage</string>
-    <string name="update_recovery_description">Nuashonruithe Aisghabháil Lineage ar an gcéad tosaithe tar éis gach nuashonraithe.</string>
     <string name="update_recovery_warning">Déanfar aisghabháil a nuashonrú chomh luath agus a chríochnaíonn tú an socrú. Más mian leat é a choinneáil slán, díchumasaigh an ghné seo.</string>
-    <string name="update_recovery_setting">Nuashonraigh Aisghabháil Lineage taobh leis an OS</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="services_pp_explanation">Oibríonn na seirbhísí seo duit chun cumais do ghléis a leathnú. Úsáidfear sonraí de réir pholasaí príobháideachais <xliff:g id="name" example="LineageOS">%1$s</xliff:g>.</string>
     <string name="services_find_privacy_policy">Is féidir leat an polasaí príobháideachais a léamh ar ghléas eile trí chuairt a thabhairt ar:</string>

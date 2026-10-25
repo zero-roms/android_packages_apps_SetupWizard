@@ -31,10 +31,7 @@
     <string name="setup_location">Posisjonstenester</string>
     <string name="location_access_summary"><b>Gjev appar du har gjeve løyve</b> tilgang til posisjon. Dette kan gjelda noverande og tidlegare stadar.</string>
     <string name="location_agps_access_summary">Når posisjonstenester er på, kan du <b>lasta ned hjelpedata for satellittar frå internett</b>. Dette kan gjera GPS-oppstarten mykje raskare.</string>
-    <string name="update_recovery_title">Oppdater Lineage Recovery</string>
-    <string name="update_recovery_description">Oppdaterer Lineage Recovery ved fyrste oppstart etter kvar oppdatering.</string>
     <string name="update_recovery_warning">Recovery vert oppdatert så snart du er ferdig med oppsettet. Slå av denne funksjonen om du vil halda på noverande versjon.</string>
-    <string name="update_recovery_setting">Oppdater Lineage Recovery saman med operativsystemet</string>
     <string name="update_recovery_full_description"><xliff:g id="recovery_update_description">%1$s</xliff:g>\n<xliff:g id="recovery_update_warning">%2$s</xliff:g></string>
     <string name="services_pp_explanation">Desse tenestene utvidar kva eininga di kan gjera. Data vert brukt i samsvar med personvernreglane til <xliff:g id="name" example="LineageOS">%1$s</xliff:g>.</string>
     <string name="services_help_improve_cm">Hjelp til med å gjera <xliff:g id="name" example="LineageOS">%s</xliff:g> betre</string>
